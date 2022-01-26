@@ -1,0 +1,153 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+html, body, head, header {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #70a48b;
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+footer {
+    margin-top: -60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #70a48b;
+}
+
+footer img {
+    width: 35px;
+}
+
+.footer-logo {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .logo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.links-wrapper {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    border: 2px white solid;
+    border-radius: 10px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.links li {
+    float: left;
+    color: white;
+    margin: 15px 5px 15px 5px;
+    padding: 10px;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    /** desktop only **/
+    .image img {
+        width: 240px;
+        height: 240px;
+        margin-right: 30px;
+        margin-bottom: 5px;
+    }
+
+    .logo img {
+        padding-top: 15px;
+        margin-left: 35px;
+    }
+
+    .links-wrapper ul {
+        margin-left: auto;
+        margin-right: 35px;
+    }
+
+    .right {
+        margin-left: 35px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.main {
+    /* width: 100%; */
+    display: flex;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    padding-bottom: 60px;
+    padding-left: 35px; 
+    padding-right: 35px; 
+}
+
+.left {
+    flex: 1;
+    min-width: 200px;
+    margin-bottom: 30px;
+}
+
+.dono {
+    border-radius: 10px;
+    background-color: #1f211c;
+}
+
+.right {
+    flex: 2;
+}
+
+.locations {
+    display: flex;
+    flex-direction: column;
+}
+
+.location {
+    border: 2px #1f211c solid;
+    border-radius: 10px;
+    padding: 15px 0px 15px 15px;
+    background-color: #70a48b;
+    color: white;
+    margin-bottom: 15px;
+}
